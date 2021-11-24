@@ -12,7 +12,9 @@ Com prefetch do Layout e preload do Login e do Dashboard:
 - Login: 450ms (aumentou um pouco pq ele carrega o pré load do Layout)
 - Dashboard: 1.3s
 
-
+bundle Analyzer:
+npm run build 
+<pre>--stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O</pre>
 
 import React, { lazy, Suspense } from "react";
 

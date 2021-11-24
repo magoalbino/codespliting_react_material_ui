@@ -1,7 +1,26 @@
 # Teste com codesplitting
 
-carregamento inicial da tela de login:
-- chunk 3.4mb -> tempo de loading: 2s
+carregamento inicial:
+- Login: chunk 3.4mb -> tempo de loading: 2s
+- Dashboard: 2.3s
+
+Depois de adicionar apenas o lazy() e o Suspense:
+- Login: chunk 743kb -> tempo de loaging: 430ms
+- Dashboard: 1.6s
+
+
+
+import React, { lazy, Suspense } from "react";
+
+Trocar:
+<pre>import Dashboard from "../../pages/dashboard";</pre>
+para:
+<pre>const Dashboard = lazy(() => import("../../pages/dashboard"));</pre>
+
+e na renderização (no caso, dentro do switch mas antes das Routes):
+<pre><Suspense fallback={<>Loading...</>}></pre>
+
+
 
 
 # React Material Admin — Material-UI Dashboard Template

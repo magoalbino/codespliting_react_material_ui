@@ -8,6 +8,10 @@ Depois de adicionar apenas o lazy() e o Suspense:
 - Login: chunk 743kb -> tempo de loaging: 430ms
 - Dashboard: 1.6s
 
+Com prefetch do Layout e preload do Login e do Dashboard:
+- Login: 450ms (aumentou um pouco pq ele carrega o pré load do Layout)
+- Dashboard: 1.3s
+
 
 
 import React, { lazy, Suspense } from "react";

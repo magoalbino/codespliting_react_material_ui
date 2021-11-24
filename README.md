@@ -13,8 +13,7 @@ Com prefetch do Layout e preload do Login e do Dashboard:
 - Dashboard: 1.3s
 
 bundle Analyzer:
-npm run build 
-<pre>--stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O</pre>
+<pre>npm run build -- --stats && npx webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O</pre>
 
 import React, { lazy, Suspense } from "react";
 

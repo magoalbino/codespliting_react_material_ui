@@ -1,3 +1,9 @@
+# Teste com codesplitting
+
+carregamento inicial da tela de login:
+- chunk 3.4mb -> tempo de loading: 2s
+
+
 # React Material Admin — Material-UI Dashboard Template
 
 Built with [React](https://facebook.github.io/react/), [Material-UI](https://material-ui.com), [React Router](https://reacttraining.com/react-router/).

@@ -18,7 +18,7 @@ para:
 <pre>const Dashboard = lazy(() => import("../../pages/dashboard"));</pre>
 
 e na renderização (no caso, dentro do switch mas antes das Routes):
-<pre><Suspense fallback={<>Loading...</>}></pre>
+<Suspense fallback={<>Loading...</>}>
 
 
 

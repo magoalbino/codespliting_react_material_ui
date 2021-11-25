@@ -63,7 +63,7 @@ Nessa aula iremos demonstrar algumas estratégias para diminuir o tempo de carre
  - [Artigo: JavaScript Start-up Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization)
 
 
-## Expert
+## Créditos
 
 | [<img src="https://avatars.githubusercontent.com/u/3427262?v=4" width="75px;"/>](https://github.com/paulopaquielli) |
 | :-: |
